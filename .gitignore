@@ -1,0 +1,39 @@
+# Node Modules
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Environment Variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env*.local
+
+# Build Outputs (Vite/React & Node Backend)
+dist/
+build/
+dist-ssr/
+.out/
+
+# Logs & PM2
+logs/
+*.log
+.pm2/
+
+# OS & Editor Files
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Testing & Coverage
+coverage/
+.nyc_output/
+cypress/videos/
+cypress/screenshots/

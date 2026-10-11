@@ -1,0 +1,37 @@
+{
+  "name": "proj-irctc",
+  "version": "1.0.0",
+  "description": "IRCTC Railway Reservation & Booking System with React and Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "node server.js",
+    "chart-worker": "node src/worker/chartWorker.js",
+    "client": "npm --prefix client run dev",
+    "build:client": "npm --prefix client run build",
+    "dev": "npm --prefix client run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "irctc",
+    "railway-booking",
+    "react",
+    "tailwind",
+    "tatkal"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@upstash/redis": "^1.38.4",
+    "bcryptjs": "^3.0.3",
+    "bullmq": "^6.3.8",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.1",
+    "express": "^5.2.1",
+    "ioredis": "^6.0.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.10.1"
+  }
+}
